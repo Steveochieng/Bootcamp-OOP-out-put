@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Learn OOP</title>
+  <script type="text/javascript">
+    
+   //this is a simple OOP to solve a real life problem of speaking.
+class person{
+  constructor(name, age, gender){
+    this.name=name;
+    this.age=age;
+    this.gender=gender;
+  }
+  
+  
+  speak(){
+    alert("Hello am " + this.name + " am " + this.age + " and I am " + this.gender);
+    
+  }
+}
+var Stephen= new person("Stephen ",  20 , "Single");
+Stephen.speak();
+
+
+
+//this is a simple OOP to solve a real life problem of finding the area of a Rectangle
+  
+class Rectangle{
+constructor(l, w, h){
+this.length_=l;
+this.width=w;
+this.height=h;
+}
+
+area(){
+  // alert(this.length_*" length_ area of a Rectangle.
+  area=this.length_ * this.width;
+  return area;
+}
+
+}
+
+var myrectangle=new Rectangle(20,10,);
+myrectangle.area()
+
+//end of Rectangle area
+
+
+
+  </script>
+</head>
+<body>
+
+</body>
+</html>
